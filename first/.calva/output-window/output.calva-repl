@@ -18,43 +18,124 @@
 clj꞉first.core꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉first.core꞉> 
-#'first.core/-main
+hello, world
+nil
 clj꞉first.core꞉> 
-#'first.core/-main
+; Syntax error (NullPointerException) compiling at (core.clj:14:1).
+; null
+clj꞉first.core꞉> 
+; Syntax error compiling at (core.clj:3:1).
+; Unable to resolve symbol: reload in this context
+clj꞉first.core꞉> 
+; Syntax error (NullPointerException) compiling at (core.clj:14:1).
+; null
+clj꞉first.core꞉> 
+; Syntax error (NullPointerException) compiling at (core.clj:14:1).
+; null
+clj꞉first.core꞉> 
+; Execution error (FileNotFoundException) at first.core/eval7807 (form-init16746658798258211479.clj:4).
+; Could not locate foo/bar__init.class, foo/bar.clj or foo/bar.cljc on classpath.
 clj꞉first.core꞉> 
 nil
 clj꞉first.core꞉> 
-2
+; Execution error (FileNotFoundException) at first.core/eval7819 (form-init16746658798258211479.clj:4).
+; Could not locate fist/core__init.class, fist/core.clj or fist/core.cljc on classpath.
 clj꞉first.core꞉> 
-; Execution error (NullPointerException) at first.core/eval7768 (form-init12611955591191933591.clj:13).
+; Execution error (FileNotFoundException) at first.core/eval7821 (form-init16746658798258211479.clj:4).
+; Could not locate fist/core__init.class, fist/core.clj or fist/core.cljc on classpath.
+clj꞉first.core꞉> 
+; Syntax error (NullPointerException) compiling at (core.clj:14:1).
 ; null
 clj꞉first.core꞉> 
-; Execution error (NullPointerException) at first.core/eval7770 (form-init12611955591191933591.clj:13).
+; Execution error (FileNotFoundException) at first.core/eval7839 (form-init16746658798258211479.clj:4).
+; Could not locate my/namespace__init.class, my/namespace.clj or my/namespace.cljc on classpath.
+clj꞉first.core꞉> 
+hello, world
+nil
+clj꞉first.core꞉> 
+#'first.core/a
+clj꞉first.core꞉> 
+aaaaa
+nil
+clj꞉first.core꞉> 
+; Execution error (FileNotFoundException) at first.core/eval7845 (form-init16746658798258211479.clj:4).
+; Could not locate my/namespace__init.class, my/namespace.clj or my/namespace.cljc on classpath.
+clj꞉first.core꞉> 
+; Syntax error (NullPointerException) compiling at (core.clj:14:1).
 ; null
 clj꞉first.core꞉> 
-; Execution error (NullPointerException) at first.core/eval7772 (form-init12611955591191933591.clj:13).
-; null
+#'first.core/a
 clj꞉first.core꞉> 
-#function[clojure.core/+]
+aaaaa
+nil
 clj꞉first.core꞉> 
-#function[clojure.core/+]
+hellolight
+nil
 clj꞉first.core꞉> 
-; Execution error (NullPointerException) at first.core/eval7774 (form-init12611955591191933591.clj:13).
-; null
+hello light
+nil
 clj꞉first.core꞉> 
-4
+light is made by  nature
+nil
 clj꞉first.core꞉> 
-; Execution error (NullPointerException) at first.core/eval7778 (form-init12611955591191933591.clj:13).
-; null
+light is made by nature
+nil
+clj꞉first.core꞉> 
+light is made by nature
+nil
+clj꞉first.core꞉> 
+#'first.core/object
+clj꞉first.core꞉> 
+let's be the light
+nil
+clj꞉first.core꞉> 
+#'first.core/say-hello
+clj꞉first.core꞉> 
+"hi, my name is alfian"
+clj꞉first.core꞉> 
+; Syntax error compiling at (core.clj:27:1).
+; Unable to resolve symbol: doc in this context
+clj꞉first.core꞉> 
+; Syntax error compiling at (core.clj:27:1).
+; Unable to resolve symbol: doc in this context
+clj꞉first.core꞉> 
+; Syntax error compiling at (core.clj:27:1).
+; Unable to resolve symbol: doc in this context
+clj꞉first.core꞉> 
+; Syntax error compiling at (core.clj:27:1).
+; Unable to resolve symbol: doc in this context
+clj꞉first.core꞉> 
+; Syntax error compiling at (core.clj:27:1).
+; Unable to resolve symbol: doc in this context
+clj꞉first.core꞉> 
+{:arglists ([name]),
+ :doc "introduction",
+ :line 21,
+ :column 1,
+ :file "/home/alfian/repository/clojure-notebook/first/src/first/core.clj",
+ :name say-hello,
+ :ns #namespace[first.core]}
 clj꞉first.core꞉> 
 nil
 clj꞉first.core꞉> 
-; Execution error (NullPointerException) at first.core/eval7793 (form-init12611955591191933591.clj:13).
-; null
+; Syntax error compiling at (core.clj:27:1).
+; Unable to resolve symbol: doc in this context
 clj꞉first.core꞉> 
-4
+; Syntax error compiling at (core.clj:31:19).
+; Unable to resolve symbol: %1 in this context
 clj꞉first.core꞉> 
-#'first.core/tambah
+; Execution error (ArityException) at first.core/eval7898 (form-init16746658798258211479.clj:31).
+; Wrong number of args (0) passed to: first.core/eval7898/fn--7899
 clj꞉first.core꞉> 
-8
+; Execution error (ClassCastException) at first.core/eval7929$plus (form-init16746658798258211479.clj:34).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉first.core꞉> 
+; Execution error (ClassCastException) at first.core/eval7937$plus (form-init16746658798258211479.clj:34).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉first.core꞉> 
+6
+nil
+clj꞉first.core꞉> 
+; Syntax error compiling at (core.clj:31:19).
+; Unable to resolve symbol: %1 in this context
 clj꞉first.core꞉> 
