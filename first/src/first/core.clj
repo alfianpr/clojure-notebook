@@ -55,3 +55,30 @@
   (println "ini benar")
   (println "ini salah")))
 
+(defn positive-number [numbers]
+  (if-let [pos-nums (not-empty (filter pos? numbers))]
+    pos-nums "no positive numbers"))
+
+(positive-number [-3, -4, 1, 2, 3])
+
+(when true
+  (println "hello"))
+
+(defn case-test
+  [n]
+  (case n 
+    1 "nomer satu"
+    2 "nomer dua"
+    "cuma ada dua"))
+(case-test 1)
+(case-test 2)
+
+(defn cond-test
+  [n]
+  (cond
+    (= n 1) "satu"
+  (and (> n 3) (< n 10)) "lebih dari 3 kurang dari 10"
+  :else "tidak ada"))
+
+(cond-test 99)
+

@@ -119,3 +119,45 @@ clj꞉first.core꞉> 
 clj꞉first.core꞉> 
 (1 2 3)
 clj꞉first.core꞉> 
+hello
+nil
+clj꞉first.core꞉> 
+#'first.core/case-test
+clj꞉first.core꞉> 
+"nomer satu"
+clj꞉first.core꞉> 
+"nomer dua"
+clj꞉first.core꞉> 
+; Syntax error macroexpanding cond at (core.clj:78:3).
+; cond requires an even number of forms
+clj꞉first.core꞉> 
+; Syntax error macroexpanding cond at (core.clj:78:3).
+; cond requires an even number of forms
+clj꞉first.core꞉> 
+#'first.core/cond-test
+clj꞉first.core꞉> 
+"satu"
+clj꞉first.core꞉> 
+"lebih dari 3 kurang dari 10"
+clj꞉first.core꞉> 
+"tidak ada"
+clj꞉first.core꞉> 
+hello, world
+aaaaa
+hello light
+light is made by nature
+let's be the light
+; Syntax error compiling at (core.clj:27:1).
+; Unable to resolve symbol: doc in this context
+clj꞉first.core꞉> 
+tidak ada
+nil
+clj꞉first.core꞉> 
+; Syntax error compiling at (core.clj:91:10).
+; Unable to resolve symbol: condp-test in this context
+clj꞉first.core꞉> 
+#'first.core/condp-test
+clj꞉first.core꞉> 
+n is either 1 2 3
+nil
+clj꞉first.core꞉> 
