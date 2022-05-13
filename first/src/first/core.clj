@@ -28,9 +28,30 @@
 
 (meta (var say-hello))
 
-(let [plus (fn [] (+ 1 %1 %2 %3))]
-  (println (plus 2 3 4)))
+(comment (let [plus (fn [] (+ 1 %1 %2 %3))]
+  (println (plus 2 3 4))))
 
 (let [plus #(+ 1 %1 %2)]
   (println (plus 2 3)))
+
+
+(def say-hello (fn [name] 
+                 (println (str "hello, " name))))
+
+(say-hello "kempil")
+
+(def greeting (fn [greeting-func name] (greeting-func name)))
+
+(greeting say-hello "kempil")
+
+(defn inner [from-outer] #(println from-outer))
+
+(def outer (inner "this is from outer"))
+
+(outer)
+
+(if true
+  (do
+  (println "ini benar")
+  (println "ini salah")))
 
